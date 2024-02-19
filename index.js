@@ -19,19 +19,19 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 /*
-  aseta komentoriviltä (esim. bashissa):
+Sovellukset on luotu googlen palvelussa: https://myaccount.google.com/
+aseta komentoriviltä (esim. bashissa):
   export PORT="3001"
   # GOOGLE-SOVELLUS 1:
-  export CLIENT_ID="357664030491-p6dfn2f6dnecco9v7f3db0p3ufjj65fm.apps.googleusercontent.com"
-  export CLIENT_SECRET="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"
+  export CLIENT_ID="katso google sovelluksesta"
+  export CLIENT_SECRET="katso google sovelluksesta"
   export REDIRECT_URI="http://localhost:3000"
 
   # GOOGLE-SOVELLUS 2:
-  export CLIENT_ID="74210253568-ngt7egrvb8klmqobes7pf23b0c8q5avj.apps.googleusercontent.com"
-  export CLIENT_SECRET="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"
+  export CLIENT_ID="katso google sovelluksesta"
+  export CLIENT_SECRET="katso google sovelluksesta"
   export REDIRECT_URI="http://localhost:3000"
 
-  Sovellukset on luotu googlen palvelussa: https://myaccount.google.com/
   */
 
 const auth = new google.auth.OAuth2(
